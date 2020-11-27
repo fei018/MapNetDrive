@@ -1,0 +1,9 @@
+C:\CodeRepos\MapNetDrive\bin\Debug\MapNetDrive.exe
+C:\CodeRepos\MapNetDrive\bin\Debug\MapNetDrive.pdb
+C:\CodeRepos\MapNetDrive\obj\Debug\MapNetDrive.Form1.resources
+C:\CodeRepos\MapNetDrive\obj\Debug\MapNetDrive.Properties.Resources.resources
+C:\CodeRepos\MapNetDrive\obj\Debug\MapNetDrive.csproj.GenerateResource.cache
+C:\CodeRepos\MapNetDrive\obj\Debug\MapNetDrive.csproj.CoreCompileInputs.cache
+C:\CodeRepos\MapNetDrive\obj\Debug\MapNetDrive.exe
+C:\CodeRepos\MapNetDrive\obj\Debug\MapNetDrive.pdb
+C:\CodeRepos\MapNetDrive\obj\Debug\MapNetDrive.csprojAssemblyReference.cache

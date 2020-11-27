@@ -1,0 +1,8 @@
+C:\CodeRepos\MapNetDrive\bin\Release\MapNetDrive.exe
+C:\CodeRepos\MapNetDrive\bin\Release\MapNetDrive.pdb
+C:\CodeRepos\MapNetDrive\obj\Release\MapNetDrive.Form1.resources
+C:\CodeRepos\MapNetDrive\obj\Release\MapNetDrive.Properties.Resources.resources
+C:\CodeRepos\MapNetDrive\obj\Release\MapNetDrive.csproj.GenerateResource.cache
+C:\CodeRepos\MapNetDrive\obj\Release\MapNetDrive.csproj.CoreCompileInputs.cache
+C:\CodeRepos\MapNetDrive\obj\Release\MapNetDrive.exe
+C:\CodeRepos\MapNetDrive\obj\Release\MapNetDrive.pdb
