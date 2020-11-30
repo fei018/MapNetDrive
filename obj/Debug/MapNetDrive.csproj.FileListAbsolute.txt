@@ -6,4 +6,3 @@ C:\CodeRepos\MapNetDrive\obj\Debug\MapNetDrive.csproj.GenerateResource.cache
 C:\CodeRepos\MapNetDrive\obj\Debug\MapNetDrive.csproj.CoreCompileInputs.cache
 C:\CodeRepos\MapNetDrive\obj\Debug\MapNetDrive.exe
 C:\CodeRepos\MapNetDrive\obj\Debug\MapNetDrive.pdb
-C:\CodeRepos\MapNetDrive\obj\Debug\MapNetDrive.csprojAssemblyReference.cache

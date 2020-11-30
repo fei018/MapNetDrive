@@ -16,6 +16,7 @@ namespace MapNetDrive
         public Form1()
         {
             InitializeComponent();
+            
         }
 
         public CmdHelp Cmd;
@@ -29,8 +30,8 @@ namespace MapNetDrive
             // check map net info list from mapinfo.txt
             if (this.Cmd.MapInfoList.Count <= 0)
             {
-                MessageBox.Show("No Department in MapInfo.txt");
-                return;
+                MessageBox.Show("Nothing in MapNetDrive.txt");
+                this.Close();
             }
 
             // SelectBox add mapinfo list

@@ -11,7 +11,6 @@ namespace MapNetDrive
         public string NetString { get; set; }
 
         public string Department { get; set; }
-
-        
+  
     }
 }

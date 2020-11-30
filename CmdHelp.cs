@@ -18,17 +18,18 @@ namespace MapNetDrive
         /// </summary>
         public List<MapInfo> GetMapInfoList()
         {
-            var file = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "mapinfo.txt");
+            var list = new List<MapInfo>();
+
+            var file = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "MapNetDrive.txt");
             if (!File.Exists(file))
             {
-                return null;
+                return list;
             }
 
             var txt = File.ReadAllLines(file);
 
-            if (txt.Length <= 0) return null;
-
-            var list = new List<MapInfo>();
+            if (txt.Length <= 0) return list;
+            
             foreach (var t in txt)
             {
                 if (string.IsNullOrWhiteSpace(t)) continue;
@@ -72,6 +73,11 @@ namespace MapNetDrive
 
         private string RunCmd(string cmdString)
         {
+            if (string.IsNullOrWhiteSpace(cmdString))
+            {
+                return null;
+            }
+
             var start = new ProcessStartInfo();
             start.FileName = "cmd.exe";
             //start.Arguments = " /c";

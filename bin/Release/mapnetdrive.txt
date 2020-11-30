@@ -1,0 +1,2 @@
+Tendar | net use p: \\hhtender.hiphing.nws\public
+test | net use p: \\hhfile02.hiphing.nws\common\it
