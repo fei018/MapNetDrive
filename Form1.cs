@@ -119,8 +119,8 @@ namespace MapNetDrive
                     this.Cmd.RunOpenDrive();
                     Thread.Sleep(2000);
 
-                    // colse the winform
-                    this.Invoke((Action)delegate { this.Close(); });
+                // colse the winform
+                this.BeginInvoke(new Action(() =>{ this.Close(); }));
                 }
 
                 // 開翻 button1 ， Connecting... hidden
